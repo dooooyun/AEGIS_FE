@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "fugazone";
+    src: url("./font/FugazOne-Regular.ttf");
+}
+@font-face {
+    font-family: "luckiest";
+    src: url("./font/LuckiestGuy-Regular.ttf");
+}
+
+.AURA {
+    position: relative;
+    top: 7px;
+}
+
+.AEGIS {
+    font-family: "fugazone";
+    font-size: 115px;
+    font-weight: 700;
+    position: relative;
+    left: 565px;
+    top: 200px;
+}
+
+.user {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.play {
+    font-family: "luckiest";
+    font-size: 28px;
+    font-weight: 900;
+    position: relative;
+    left: 645px;
+    top: 175px;
+}
+
+.rec {
+    position: relative;
+    left: 600px;
+    top: 210px;
+}

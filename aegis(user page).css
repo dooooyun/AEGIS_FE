@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "fugazone";
+    src: url("./font/FugazOne-Regular.ttf");
+}
+@font-face {
+    font-family: "luckiest";
+    src: url("./font/LuckiestGuy-Regular.ttf");
+}
+
+.AURA {
+    position: relative;
+    top: 7px;
+}
+
+.user {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
