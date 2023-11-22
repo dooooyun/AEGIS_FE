@@ -1,19 +1,58 @@
 @font-face {
-    font-family: "fugazone";
-    src: url("./font/FugazOne-Regular.ttf");
+    font-family: cuprum;
+    src: url(./font/Cuprum-Italic-VariableFont_wght.ttf);
 }
-@font-face {
-    font-family: "luckiest";
-    src: url("./font/LuckiestGuy-Regular.ttf");
-}
-
-.AURA {
-    position: relative;
-    top: 7px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 8px;
 }
 
-.user {
-    float: right;
-    padding-top: 10px;
-    padding-right: 20px;
+.headerleft {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
 }
+.mainbutton {
+    background-color: transparent;
+    border: 0;
+}
+.headerright {
+    display: flex;
+    gap: 50px;
+    color: aliceblue;
+    font-weight: 800;
+    align-items: center;
+    margin-right: 50px;
+}
+.loginbutton {
+    background-color: transparent;
+    border: 0;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 20px;
+}
+.callbutton {
+    font-size: 20px;
+    font-weight: 800;
+    color: aliceblue;
+    background-color: transparent;
+    border: 0;
+}
+.start {
+    background-color: transparent;
+    border: 0;
+}
+.mainimage {
+    height: 75px;
+    width: 75px;
+}
+.headerAEGIS {
+    font-family: cuprum;
+    font-size: 38px;
+    font-weight: 700;
+    color: aliceblue;
+    padding-top: 7px;
+}
+

@@ -1,43 +1,90 @@
-@font-face {
-    font-family: "fugazone";
-    src: url("./font/FugazOne-Regular.ttf");
-}
-@font-face {
-    font-family: "luckiest";
-    src: url("./font/LuckiestGuy-Regular.ttf");
+html, body {
+    height: 2710px;
 }
 
-.AURA {
-    position: relative;
-    top: 7px;
+@font-face {
+    font-family: cuprum;
+    src: url(./font/Cuprum-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: dung;
+    src: url(./font/DungGeunMo.ttf);
 }
 
-.AEGIS {
-    font-family: "fugazone";
-    font-size: 115px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 8px;
+}
+
+.headerleft {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.mainbutton {
+    background-color: transparent;
+    border: 0;
+}
+.headerright {
+    display: flex;
+    gap: 50px;
+    color: aliceblue;
+    font-weight: 800;
+    align-items: center;
+    margin-right: 50px;
+}
+.loginbutton {
+    background-color: transparent;
+    border: 0;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 20px;
+}
+.callbutton {
+    font-size: 20px;
+    font-weight: 800;
+    color: aliceblue;
+    background-color: transparent;
+    border: 0;
+}
+.start {
+    background-color: transparent;
+    border: 0;
+}
+.mainimage {
+    height: 75px;
+    width: 75px;
+}
+.headerAEGIS {
+    font-family: cuprum;
+    font-size: 38px;
     font-weight: 700;
-    position: relative;
-    left: 565px;
-    top: 200px;
+    color: aliceblue;
+    padding-top: 7px;
 }
-
-.user {
-    float: right;
-    padding-top: 10px;
-    padding-right: 20px;
+.sectiontop {
+    padding-top: 110px;
+    padding-left: 50px;
+    display: flex;
 }
-
-.play {
-    font-family: "luckiest";
-    font-size: 28px;
-    font-weight: 900;
-    position: relative;
-    left: 645px;
-    top: 175px;
+.title {
+    font-family: dung;
+    color: aliceblue;
+    font-size: 280px;
+    letter-spacing: -17px;
 }
-
-.rec {
-    position: relative;
-    left: 600px;
-    top: 210px;
+.subtitle {
+    font-family: dung;
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.rightsec {
+    margin-left: 220px;
+}
+.sectionbottom {
+    text-align: center;
+    padding: 120px;
 }

@@ -4,17 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="aegis.css">
+    <link rel="stylesheet" href="aegis(main page).css">
 </head>
-<body>
-    <img src="./img/mainimage.jpeg" alt="image" width="160" height="65">
-    <img class="AURA" src="./img/AURAGAMES.jpeg" alt="image"  width="190" height="35">
-    <div class="user">
-    <img src="./img/user.png" alt="image" width="57" height="57">
+<body style="background-image: url('./img/backgroundmain.png')">
+    <div class="header">
+       <div class="headerleft">
+            <button class="mainbutton" onclick="location.href = 'aegis(main page).html'">
+                <img class="mainimage" src="./img/mainimage.png" alt="image">
+            </button>
+            <button class="mainbutton" onclick="location.href = 'aegis(main page).html'">
+                <div class="headerAEGIS">ÆGIS</div>
+            </button>
+        </div>
+        <div class="headerright">
+            <button class="callbutton" onclick="location.href = 'aegis( page).html'">
+                <div>문의</div>
+            </button>
+            <button class="loginbutton" onclick="location.href = 'aegis(login page).html'">
+                <div>로그인</div>
+            </button>
+            <button class="start" onclick="location.href = 'aegis( page).html'">
+                <img src="./img/gamestart.jpeg" alt="image" height="60px" width="180px">
+            </button>
+        </div>
     </div>
-    <hr width="1380px" size="2" color="black">
-    <div class="AEGIS">ÆGIS</div>
-    <img class="rec" src="./img/rectangle.jpg" alt="image" width="220" height="40">
-    <div class="play">play now</div>
+    <hr width="1350px" size="1" color="aliceblue">
+    <div class="sectiontop">
+        <div class="leftsec">    
+            <div class="title">AEGIS</div>
+            <div class="subtitle">Developed by Aura Games</div>
+        </div>
+        <div class="rightsec">
+            <img src="./img/sectionrobot.png" alt="image">
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr width="1350px" size="1" color="aliceblue">
+    <div class="sectionbottom">
+        <div style="font-size: 35px; color: aliceblue;">이지스 월드에 오신 것을 환영합니다</div>
+        <div style="font-size: 70px; padding-top: 10px;">기본 정보를 배워보세요</div>
+        <div style="font-size: 30px; padding-top: 20px; color: aliceblue;">무언가 수상한 아우라 월드를 탐험하며 프로젝트 이지스의 비밀을 파헤쳐보세요</div>
+    </div>
 </body>
 </html>
