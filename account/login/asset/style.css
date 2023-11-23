@@ -1,0 +1,28 @@
+main {
+  text-align: center;
+  padding-top: 100px;
+}
+
+main h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: aliceblue;
+  padding-bottom: 30px;
+}
+
+main input {
+  width: 322px;
+  font-size: 18px;
+  padding: 10px 24px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.submit {
+  width: 322px;
+  border-radius: 10px;
+  background: #de5c5c;
+  color: aliceblue;
+  cursor: pointer;
+}

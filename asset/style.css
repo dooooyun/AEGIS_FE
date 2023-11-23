@@ -1,0 +1,52 @@
+html,
+body {
+  height: 2710px;
+}
+
+body {
+  background-image: url("../img/background.png");
+}
+
+section.top {
+  padding-top: 110px;
+  display: flex;
+}
+
+.title {
+  font-family: "dung";
+  color: aliceblue;
+  font-size: 280px;
+  letter-spacing: -17px;
+}
+
+.subtitle {
+  font-family: "dung";
+  color: aliceblue;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.char {
+  margin-left: 220px;
+}
+
+section.bottom {
+  text-align: center;
+  padding: 120px;
+}
+
+section.bottom div:nth-child(1) {
+  font-size: 35px;
+  color: aliceblue;
+}
+
+section.bottom div:nth-child(2) {
+  font-size: 70px;
+  padding-top: 10px;
+}
+
+section.bottom div:nth-child(3) {
+  font-size: 30px;
+  padding-top: 20px;
+  color: aliceblue;
+}

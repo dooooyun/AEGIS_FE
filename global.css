@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+:root {
+  --color-primary: #712cf9;
+  --color-secondary: #441b95;
+  --color-select: #ebd5f9;
+  --color-destroy: #e5271d;
+  --color-text: #37352f;
+  --color-border: #767676;
+  --color-link: #1261cf;
+  --color-hover: #eeeeee;
+  -webkit-tap-highlight-color: #ffffff00;
+  -webkit-user-select: none;
+  user-select: none;
+  word-break: keep-all;
+  color: #000000;
+  font-family: "AppleGothic";
+}
+
+*,
+::after,
+::before {
+  font-family: "AppleGothic";
+  box-sizing: revert;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+button,
+input,
+select,
+textarea {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  color: inherit;
+}
+
+*::selection {
+  background-color: var(--color-select);
+}
+
+* {
+  font-family: "Noto";
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+input,
+textarea {
+  -webkit-user-select: text !important;
+  border: 1px solid var(--color-border);
+  outline: #767676;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a,
+button {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  outline: 0px;
+  border: 0px;
+}
+
+@font-face {
+  font-family: "cuprum";
+  src: url(./font/Cuprum.ttf);
+}
+
+@font-face {
+  font-family: "dung";
+  src: url(./font/DungGeunMo.ttf);
+}
+
+@font-face {
+  font-family: "noto";
+  src: url(./font/NotoSansKR.ttf);
+}
+
+/** Header **/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 40px 8px 40px;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left > * {
+  margin: auto 0px;
+}
+
+.header_left img {
+  height: 42px;
+}
+
+.header_left h1 {
+  font-family: "cuprum";
+  font-size: 30px;
+  font-weight: 700;
+  color: aliceblue;
+  padding-top: 7px;
+}
+
+.header_right {
+  display: flex;
+  gap: 50px;
+  color: aliceblue;
+  font-weight: 800;
+  align-items: center;
+}
+
+.header_right button {
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.start {
+  height: 40px;
+  margin: auto 0px;
+}
+
+.header_hr {
+  width: calc(100% - 80px);
+}
+
+main {
+  padding: 0px 40px;
+}
