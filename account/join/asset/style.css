@@ -1,8 +1,8 @@
 main {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 70px;
 }
-
+  
 main h1 {
   font-size: 40px;
   font-weight: 700;
@@ -19,11 +19,12 @@ main input {
   border-radius: 10px;
 }
 
-.rujoin {
-  color: aliceblue;
-  font-weight: 800;
-  position: relative;
-  left: -40px;
+.subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    padding-right: 250px;
+    padding-bottom: 5px;
 }
 
 .submit {
@@ -33,3 +34,4 @@ main input {
   color: aliceblue;
   cursor: pointer;
 }
+  
