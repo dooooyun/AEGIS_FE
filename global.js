@@ -1,7 +1,8 @@
 window.onload = () => {
+  let isLoggin = true;
   const header = document.getElementsByTagName("header")[0];
   if (header) {
-    header.innerHTML = `
+    let string = `
       <button class="header_left" onclick="location.href = '/'">
         <img src="/header/logo.png" alt="" />
         <h1>ÆGIS</h1>
@@ -18,6 +19,7 @@ window.onload = () => {
         </button>
       </div>
     `;
+    header.innerHTML = string;
     header.insertAdjacentHTML(
       "afterend",
       `<hr class="header_hr" size="1" color="aliceblue" />`
